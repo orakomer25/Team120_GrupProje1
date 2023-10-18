@@ -43,7 +43,6 @@ public class C01_SoftAssertion {
         SoftAssert softAssert = new SoftAssert();
 
         String actualSecilmisOpsiyon = select.getFirstSelectedOption().getText();
-        String yeniekleme = "buda burada dursun";
         String expectedSecilecekOpsiyon = "Eurozone (euro)";
 
         softAssert.assertEquals(actualSecilmisOpsiyon,expectedSecilecekOpsiyon,"secilen opsiyon Eurozone degil");
