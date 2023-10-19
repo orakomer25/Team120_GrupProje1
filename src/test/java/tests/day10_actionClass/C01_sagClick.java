@@ -33,6 +33,7 @@ public class C01_sagClick {
         //6- Elemental Selenium linkine tiklayalim
         String ilkSayfaWHD=Driver.getDriver().getWindowHandle();
        herokuAppPage.elementalSeleniumLink.click();
+        ReusableMethods.bekle(5);
         String ikinciSayfaWHD="";
         Set<String> whd=Driver.getDriver().getWindowHandles();
         for (String each:whd
