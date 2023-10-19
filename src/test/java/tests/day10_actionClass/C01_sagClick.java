@@ -60,6 +60,6 @@ public class C01_sagClick extends TestBaseRapor {
 
         //Sayfalari  kapat(quit)
         Driver.quitDriver();
-        extentTest.info("Sayfaları Kapatır.");
+        extentTest.info("Sayfaları Kapatır quit ile kapatır.");
     }
 }
