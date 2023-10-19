@@ -1,8 +1,5 @@
 package tests.day10_actionClass;
 
-import com.aventstack.extentreports.ExtentTest;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,7 +11,7 @@ import utilities.TestBaseRapor;
 
 import java.util.Set;
 
-public class C01_sagClick extends TestBaseRapor {
+public class C01_sagClick_testi extends TestBaseRapor {
 
 
     @Test
