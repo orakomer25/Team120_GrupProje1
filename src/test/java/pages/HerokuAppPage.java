@@ -19,4 +19,30 @@ public class HerokuAppPage {
   @FindBy (tagName = "h1")
     public WebElement makeSureCodeLandsYaziElementi;
 
+    @FindBy (xpath = "//select[@id='dropdown']")
+    public WebElement dropDownElementi;
+
+    @FindBy (xpath = "//*[text()='Click for JS Alert']")
+    public WebElement jsAlertElementi;
+
+
+    @FindBy (xpath = "//*[@id='result']")
+    public WebElement sonucYaziElementi;
+
+    @FindBy (xpath = "//*[text()='Click for JS Confirm']")
+    public WebElement jsConfirmElementi;
+
+    @FindBy (xpath = "//*[text()='Click for JS Prompt']")
+    public WebElement jsPromptElementi;
+
+    @FindBy (tagName = "p")
+    public WebElement tebrikYaziElementi;
+
+
+
+
+
+
+
+
 }
