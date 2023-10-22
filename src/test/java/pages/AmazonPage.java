@@ -31,6 +31,12 @@ public class AmazonPage {
 
     @FindBy(xpath = "//span[@class='a-size-large product-title-word-break']")
     public WebElement ilkUrunIsimElementi;
+
+    @FindBy(xpath = "//*[@id='searchDropdownBox']")
+    public WebElement dropDownElementi;
+
+
+
     @FindBy(xpath = "//span[@id=\"nav-link-accountList-nav-line-1\"]")
     public WebElement accountListElementi;
     @FindBy(xpath = "//*[text()=\"Create a List\"]")
