@@ -29,7 +29,7 @@ public class C03_MoveToElement extends TestBaseRapor {
         WebElement creatAList= amazonPage.creatAList;
         actions.click(creatAList).perform();
         extentTest.info("Elemente click yapar");
-        //4- Acilan sayfada “Your Lists” yazisi oldugunu test edin
+        //4- Acilan sayfada “Your Lists” yazisi oldugunu test edin.
         String actualyourLists= amazonPage.yourListElementi.getText();
         String expectedYazi="Your Lists";
         Assert.assertEquals(expectedYazi,actualyourLists);
